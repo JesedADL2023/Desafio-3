@@ -1,0 +1,198 @@
+/* Para mantener el ancho, sin importar la cantidad de relleno, usaremos la propiedad box-sizing*/
+html 
+    {
+     box-sizing: border-box;
+    }
+    *,
+    *:before,
+    *:after {
+      box-sizing: border-box;
+    }
+
+
+/* Reseteamos los valores para evitar problemas con los navegadores */
+h1,
+h2
+   {
+    margin: 0;
+    padding: 0;
+   }
+
+body,
+section,
+p 
+       {
+        margin: 0;
+        padding: 0;
+        
+       }
+
+body
+     {
+      font-family: "Raleway", light;
+      background-color: #000000;
+      /*border: auto; */
+     
+     }
+
+.rectangulo1
+            {
+             font-family: "Raleway", Medium;
+             text-align: center;
+             color: white;
+             padding-top: 7px;
+             font-size: 50px;
+             height: 73px;
+             background-color: #000000;
+             opacity: 100%;
+            }
+
+header {
+        background-image: url("../imgs/bgheader.png");
+        background-position-x: top;
+        background-size: cover;
+        height: 727px;
+        /*border-bottom: 0px;*/
+        }
+
+.rectangulo3
+            {
+             height: 348px;
+             padding: 45px 0;
+            }
+
+.cont-rectangulo3
+                 {
+                   width: 75%;
+                   margin: 0 auto;
+                  }
+
+/*Descripción de texto lado izquierdo */
+.texto2 
+        {
+         font-family: 'Raleway' Light;
+         font-size: 16px;
+         width: 475px;
+         height: 197px;
+         margin-top: 40px;
+         color: white;
+         float: left;
+        }
+    
+/* imagen iguana lado derecho, al lado de la descripción */
+.iguana1
+        {
+         background-image: url("../imgs/iguana1.jpg");
+         /*background-position: center;*/
+         background-size: cover;
+         padding-right: 237px;
+         padding-bottom: 76px;
+         width: 399px;
+         height: 237px;
+         float: right;
+        }
+
+/* Le agregamos estilo a la sección de los íconos */
+.rectangulo7 
+            {
+             background-color: #1e1a13;
+             height: 348px;
+             font-weight: 500;
+             font-size: 40px;
+             padding: 75px 0;
+            }
+
+.rectangulo7 i 
+              {
+               color: white;
+              }
+
+.rectangulo7 p 
+              {
+               color: white;
+              }
+
+/* Le agregamos estilo al título de la sección de los íconos */
+.h2
+   {
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+   }
+
+/* Prueba con íconos.  No sirvió 
+.rectangulo7 icono
+              {
+                
+              opacity: 1;
+              width: 57px;
+              height: 37px;
+              margin-left: 326px;
+              margin-top: 192px;
+              }
+*/
+
+.icono 
+      {
+       background-color: #1e1a13;
+       text-align: center;
+       padding: 50px;
+       opacity: 100%;
+      }
+
+/* Alineación híbrida de las imágenes */
+.icono 
+      {
+       display: inline-block;
+       width: 30%;
+      }
+
+.icono p
+        {
+         font-size: 25px;
+         font-weight: 300;
+        }
+
+.rectangulo5 
+            {
+             background-color: #000000;
+             opacity: 96%;
+             text-align: center;
+            }
+
+.cont-imagenes 
+               {
+                display: inline-block;
+                padding: 80px 8px;
+               /* padding: 73px 150px; */ 
+               }
+
+/* Dimensionamos el contenedor para las 3 imágenes */
+.cont-imagenes img 
+                   {
+                    width: 316px;
+                    height: 202px; 
+                    opacity: 100%;  
+                   }
+
+.cont-rectangulo8
+                 {
+                  background-color: #1E1A13;
+                  opacity: 94%;
+                  width: 1280px;
+                  height: 102px;
+                  width: auto;
+                  
+                 }
+
+.cont-rectangulo8 p 
+                   {
+                    font-family: 'Raleway' Light;
+                    font-size: 20px;
+                    color: #FFFFFF;
+                    padding: 39px 299px;
+                    opacity: 100%;
+                    text-align: center;
+                   }
